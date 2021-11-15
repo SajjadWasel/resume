@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 210; /*Purple 250 - Green 142 - Blue 230 - skyblue 210*/
+    --hue-color: 215; /*Purple 250 - Green 142 - Blue 230 - skyblue 215*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -117,18 +117,18 @@ img {
     padding: 2rem 0 4rem;
 }
 
-.section_title {
+.section__title {
     font-size: var(--h1-font-size);
 }
 
-.section_subtitle {
+.section__subtitle {
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-3);
 }
 
-.section_title,
-.section_subtitle {
+.section__title,
+.section__subtitle {
     text-align: center;
 }
 
@@ -339,7 +339,6 @@ img {
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
-    margin-top: 20px;
 }
 
 .button:hover {
@@ -360,6 +359,45 @@ img {
 
 
 /*==================== ABOUT ====================*/
+.about__img {
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-items: center;
+}
+
+.about__description {
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__info-title {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+} 
+
+.about__info-name {
+    font-size: var(--smaller-font-size);   
+}
+
+.about__info-title,
+.about__info-name {
+    display: block;
+    text-align: center;
+}
+
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
+}
 
 
 /*==================== SKILLS ====================*/
